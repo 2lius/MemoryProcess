@@ -6,13 +6,38 @@
 
     <groupId>com.lius.MemoryProcess</groupId>
     <artifactId>MemoryProcess</artifactId>
+
     <version>1.0-SNAPSHOT</version>
+
+    <name>MemoryProcess</name>
+    <description>进程内存操作</description>
+    <url>https://github.com/2lius/MemoryProcess</url>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/2lius/MemoryProcess</url>
+        <connection>scm:git:https://github.com/2lius/MemoryProcess</connection>
+        <developerConnection>scm:git:https://github.com/2lius/MemoryProcess</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <name>lius</name>
+            <email>2390425637@qq.com</email>
+        </developer>
+    </developers>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>net.java.dev.jna</groupId>
